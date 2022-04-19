@@ -18,7 +18,8 @@ packages <- c("dplyr","readxl","parameters","apa", "apaTables","haven","ggplot2"
 ipak(packages)
 
 #Importar la Base de Datos (Original)
-BD_M <- read_excel("G:/GitHub/M/BaseDatosMariVia.xlsx")
+library(readxl)
+BD_M <- read_excel("G:/GitHub/Mari.ULSM/BD.M.xlsx")
 View(BD_M)
 
 
